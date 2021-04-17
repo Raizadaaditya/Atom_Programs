@@ -15,7 +15,7 @@ def calc(Npow):
         temp = temp // 10
 
     if sum > 9:
-        sum = calc(sum)
+        return calc(sum)
     else:
         return sum
 
