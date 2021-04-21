@@ -17,9 +17,8 @@ for i in range(N):
     inpt = int(input())
     set2.add(inpt)
 
-set1_diff = set1.difference(set2)
-set2_diff = set2.difference(set1)
-sem_diff = set1_diff.union(set2_diff)
+sem_diff = set1.symmetric_difference(set2)
+# only numbers which are unique to both sets will be there in sem_diff
 
 print("Symmetric difference: ")
 for num in sem_diff:
