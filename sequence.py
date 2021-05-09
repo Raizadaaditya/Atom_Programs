@@ -13,3 +13,4 @@ for ch in seq:
         else:
             pass
     elif ch[1] == ch[2]:
+        pass

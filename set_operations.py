@@ -1,8 +1,6 @@
 '''
 Set operations
-'''
 
-'''
 
 >> a = raw_input()
 5 4 3 2
@@ -64,7 +62,8 @@ Common Set operations
 >> a.difference(b) # Values which exist in a but not in b
 {9, 5}
 
-The union() and intersection() functions are symmetric methods but not difference
+The union() and intersection() functions are symmetric methods but
+not difference
 
 >> a.union(b) == b.union(a)
 True
@@ -72,3 +71,5 @@ True
 True
 >> a.difference(b) == b.difference(a)
 False
+
+'''
