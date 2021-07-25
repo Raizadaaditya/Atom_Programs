@@ -5,6 +5,7 @@ then 1+4 = 5
 final result  = 5
 '''
 
+
 def calc(Npow):
     temp = Npow
     sum = 0
@@ -18,6 +19,7 @@ def calc(Npow):
         return calc(sum)
     else:
         return sum
+
 
 N = int(input("Enter Number: "))
 M = pow(2, N)

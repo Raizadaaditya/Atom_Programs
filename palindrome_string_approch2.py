@@ -12,6 +12,7 @@ def isPalindrome(s):
         return True
     return False
 
+
 # main function
 s = "malayalam"
 ans = isPalindrome(s)

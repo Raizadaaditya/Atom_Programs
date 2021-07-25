@@ -1,6 +1,8 @@
 '''
 Introducing how class and object works
 '''
+
+
 class Parrot:
     # class attribute
     species = 'bird'
@@ -9,6 +11,7 @@ class Parrot:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+
 
 # instantiating the Parrot class
 blue = Parrot('Blue', 10)

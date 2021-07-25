@@ -12,5 +12,5 @@ for ch in gvn_str:
     else:
         count.append(ch)
 
-print('Characters missing',count)
+print('Characters missing', count)
 print('Number of Characters missing', len(count))

@@ -13,6 +13,6 @@ print(arr)
 
 for j in range(n-1):
     if arr[j] + arr[j+1] == s:
-        print(arr[j],arr[j+1])
+        print(arr[j], arr[j+1])
     else:
         continue

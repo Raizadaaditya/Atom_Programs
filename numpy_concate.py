@@ -27,4 +27,4 @@ for i in range(m):
 
 arr1 = np.array(L1)
 arr2 = np.array(L2)
-print(np.concatenate((arr1,arr2)))
+print(np.concatenate((arr1, arr2)))

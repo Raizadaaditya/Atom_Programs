@@ -2,7 +2,7 @@
 finds the max average marks of a student
 '''
 
-inpt_lst = [  ["Rohit", "85"], ["Rahul", "80"], ["Amit","85"],["Rohit", "90"]  ]
+inpt_lst = [["Rohit", "85"], ["Rahul", "80"], ["Amit", "85"], ["Rohit", "90"]]
 opt_dict = dict()
 opt_dict_avg = dict()
 avg_lst = []
@@ -19,7 +19,7 @@ print(opt_dict)
 print(opt_dict_avg)
 
 
-for (k1,v1), (k2,v2) in zip(opt_dict.items(),opt_dict_avg.items()):
+for (k1, v1), (k2, v2) in zip(opt_dict.items(), opt_dict_avg.items()):
     avg = v1/v2
     print(k1)
     print(avg)

@@ -29,7 +29,7 @@ for ch in inpt_dict:
 
 # checking if value in dictionary exist with True
 # if Yes then appending those values to output list
-for k,v in inpt_dict.items():
+for k, v in inpt_dict.items():
     if v == True:
         out_lst.append(k)
 

@@ -9,7 +9,7 @@ for num in arr:
         out_dict[num] += 1
     else:
         out_dict[num] = 1
-for key,val in out_dict.items():
+for key, val in out_dict.items():
     if val != 1:
         continue
     else:

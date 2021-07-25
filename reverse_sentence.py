@@ -2,8 +2,11 @@
 reverse a string function
 
 '''
+
+
 def my_function(x):
-  return x[::-1]
+    return x[::-1]
+
 
 mytxt = my_function("I wonder how this text looks like backwards")
 

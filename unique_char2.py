@@ -15,6 +15,6 @@ for val in out_dict.values():
     if val == 1:
         continue
     else:
-        ans = False # means characters in string are not unique
+        ans = False  # means characters in string are not unique
         break
 print(ans)

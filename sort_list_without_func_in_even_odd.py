@@ -6,7 +6,7 @@ o/p -> A = [7,5,3,1,2,4,10]
 wihout using sort function
 '''
 
-tot = int(input("Enter the length of list: ")) # total length of list
+tot = int(input("Enter the length of list: "))  # total length of list
 my_list_str = input("Enter the list of numbers seperated by space: ")
 # splitting list values and making it into list
 
@@ -26,7 +26,7 @@ if tot == len(my_list):
 
     # checking if number is odd or even and putting into two different lists
     for num in my_list:
-        if num%2 == 0:
+        if num % 2 == 0:
             even_lst.append(num)
         else:
             odd_lst.append(num)

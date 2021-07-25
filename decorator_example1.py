@@ -3,6 +3,8 @@ decorators using @ symbol
 '''
 
 # passing function printer to display info function
+
+
 def display_info(func):
 
     def inner():
@@ -12,8 +14,10 @@ def display_info(func):
 
     return inner
 
+
 @display_info
 def printer():
     print('Hello World!')
+
 
 printer()

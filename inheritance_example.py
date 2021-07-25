@@ -3,6 +3,8 @@ Introducing Inheritance
 '''
 
 # parent class
+
+
 class Bird:
     def __init__(self):
         print("Bird is ready")
@@ -14,9 +16,11 @@ class Bird:
         print("Swim faster")
 
 # child class
+
+
 class Penguin(Bird):
     def __init__(self):
-        #calling super function
+        # calling super function
         super().__init__()
         print("Penguin is ready")
 
@@ -26,7 +30,8 @@ class Penguin(Bird):
     def run(self):
         print("Run faster")
 
+
 peggy = Penguin()
 peggy.whoisthis()
 peggy.swim()
-peggy.run()    
+peggy.run()

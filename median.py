@@ -2,8 +2,8 @@
 sort two list as one list and find meadian of it
 '''
 
-lst1 = [2,3,6,7,9]
-lst2 = [-1,4,8,10]
+lst1 = [2, 3, 6, 7, 9]
+lst2 = [-1, 4, 8, 10]
 
 final_lst = lst1 + lst2
 fnl_sort_lst = final_lst.sorted()

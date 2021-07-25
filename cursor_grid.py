@@ -2,7 +2,7 @@
 moving cursor in grid
 '''
 
-pos = [0,0]
+pos = [0, 0]
 
 str1 = 'RRULDDDLR'
 

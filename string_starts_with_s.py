@@ -1,7 +1,7 @@
 '''
 check if string starts with S
 '''
-inpt_lst = ["apple","sample", "search","cat"]
+inpt_lst = ["apple", "sample", "search", "cat"]
 out_lst = []
 
 for word in inpt_lst:

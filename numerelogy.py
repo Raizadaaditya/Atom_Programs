@@ -5,21 +5,21 @@ total = 0
 str1 = 'S. KANAPATHY'
 
 for ch in str1:
-    if ch in {'A','I','J','Q','Y'}:
+    if ch in {'A', 'I', 'J', 'Q', 'Y'}:
         total += 1
-    elif ch in {'B','K','R'}:
+    elif ch in {'B', 'K', 'R'}:
         total += 2
-    elif ch in {'C','G','L','S'}:
+    elif ch in {'C', 'G', 'L', 'S'}:
         total += 3
-    elif ch in {'D','M','T'}:
+    elif ch in {'D', 'M', 'T'}:
         total += 4
-    elif ch in {'E','H','N','X'}:
+    elif ch in {'E', 'H', 'N', 'X'}:
         total += 5
-    elif ch in {'U','V','W'}:
+    elif ch in {'U', 'V', 'W'}:
         total += 6
-    elif ch in {'O','Z'}:
+    elif ch in {'O', 'Z'}:
         total += 7
-    elif ch in {'F','P'}:
+    elif ch in {'F', 'P'}:
         total += 8
     else:
         continue
